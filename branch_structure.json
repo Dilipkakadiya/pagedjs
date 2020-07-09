@@ -1,0 +1,33 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "adjust_preBreakToken",
+    "counter-page-reset",
+    "fchasen/string-value",
+    "footnotes",
+    "master",
+    "origin",
+    "string-value",
+    "update_tests_pre_0.1.43"
+  ],
+  "parent": {
+    "adjust_preBreakToken": "master",
+    "counter-page-reset": "master",
+    "fchasen/string-value": "master",
+    "footnotes": "master",
+    "master": null,
+    "origin": "master",
+    "string-value": "master",
+    "update_tests_pre_0.1.43": "master"
+  },
+  "order": [
+    "master",
+    "adjust_preBreakToken",
+    "counter-page-reset",
+    "fchasen/string-value",
+    "footnotes",
+    "origin",
+    "string-value",
+    "update_tests_pre_0.1.43"
+  ]
+}
