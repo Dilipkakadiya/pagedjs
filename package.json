@@ -1,6 +1,6 @@
 {
   "name": "pagedjs",
-  "version": "0.1.43",
+  "version": "0.2.0",
   "description": "Chunks up a document into paged media flows and applies print styles",
   "author": "Fred Chasen",
   "license": "MIT",
@@ -39,9 +39,9 @@
     "rollup-plugin-serve": "^1.1.0"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "node api.js && rollup -c",
     "legacy": "rollup -c rollup.legacy.config.js",
-    "start": "rollup -w -c rollup.server.config.js",
+    "start": "node api.js && rollup -w -c rollup.server.config.js",
     "test": "npm run lint && npm run tests && npm run specs",
     "tests": "jest",
     "specs": "jest --config=specs/jest.config.js",
